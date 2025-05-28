@@ -117,6 +117,11 @@ STATIC_ROOT = 'home/mehrino1/mehrinoz-abdullayeva.uz/students/staticfiles'
 # MEDIA_ROOT = BASE_DIR / 'media'
 MEDIA_ROOT = 'home/mehrino1/mehrinoz-abdullayeva.uz/students/media'
 
+STATICFILES_FINDERS = [
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+]
+
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 LOGIN_URL = '/login/'
