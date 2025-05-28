@@ -111,11 +111,11 @@ MEDIA_URL = '/media/'
 
 # STATICFILES_DIRS = [BASE_DIR / 'static']
 # STATIC_ROOT =BASE_DIR / 'staticfiles'
-STATICFILES_DIRS = ('home/mehrino1/mehrinoz-abdullayeva.uz/students/static',)
-STATIC_ROOT = 'home/mehrino1/mehrinoz-abdullayeva.uz/students/staticfiles'
+STATICFILES_DIRS = ('/home/mehrino1/mehrinoz-abdullayeva.uz/students/static',)
+STATIC_ROOT = '/home/mehrino1/mehrinoz-abdullayeva.uz/students/staticfiles'
 
 # MEDIA_ROOT = BASE_DIR / 'media'
-MEDIA_ROOT = 'home/mehrino1/mehrinoz-abdullayeva.uz/students/media'
+MEDIA_ROOT = '/home/mehrino1/mehrinoz-abdullayeva.uz/students/media'
 
 STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.FileSystemFinder',
